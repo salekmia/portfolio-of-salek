@@ -5,7 +5,7 @@ import docs from '../images/Resume of Md Salek Mia.pdf';
 import PrimaryButton from './PrimaryButton';
 const ImageSection = () => {
     return (
-        <ImageSectionStyled className="row">
+        <ImageSectionStyled className="row d-flex align-items-center">
             <div className="left-content col-md-4">
                 <img src={about} alt="avatar" />
             </div>

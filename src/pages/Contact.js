@@ -1,10 +1,12 @@
 import React from 'react';
+import Title from '../component/Title';
+import { MainLayout } from '../style/Layouts';
 
 const Contact = () => {
     return (
-        <div>
-            <h2>This is Contact</h2>
-        </div>
+        <MainLayout>
+            <Title title={'Portfolios'} span={'Portfolios'}></Title>
+        </MainLayout>
     );
 };
 

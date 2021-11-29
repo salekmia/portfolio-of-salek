@@ -10,27 +10,71 @@ const MySkills = () => {
     return (
         <InnerLayout>
             <MySkillsSectionStyled>
-                <Title title={'Services'} span={'Services'}></Title>
-                <div className="services">
-                    <ServiceCard 
-                    // image={service1} 
-                    title={'Service One'} 
-                    paragraph={'This is service one.This is service one.This is service one.This is service one.'}
+                <Title title={'My Skills'} span={'My Skills'}></Title>
+                <div className="services row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                    <div className="col">
+                    <ServiceCard
+                    icon={'fab fa-html5'}
+                    title={'HTML'} 
+                    percentage={'95'}
                     ></ServiceCard>
-
-                    <div className="mid-card">
+                    </div>
+                    
+                    <div className="col">
                     <ServiceCard 
-                    // image={service2} 
-                    title={'Service Two'} 
-                    paragraph={'This is service Two.This is service Two.This is service Two.This is service Two.'}
+                    icon={'fab fa-css3-alt'}
+                    title={'CSS'} 
+                    percentage={'90'}
                     ></ServiceCard>
                     </div>
 
+                    <div className="col">
                     <ServiceCard 
-                    // image={service3} 
-                    title={'Service Three'} 
-                    paragraph={'This is service Three.This is service Three.This is service Three.This is service Three.'}
+                    icon={'fab fa-js-square'}
+                    title={'Javascript'} 
+                    percentage={'70'}
                     ></ServiceCard>
+                    </div>
+
+                    <div className="col">
+                    <ServiceCard 
+                    icon={'fab fa-react'}
+                    title={'React'} 
+                    percentage={'90'}
+                    ></ServiceCard>
+                    </div>
+
+                    <div className="col">
+                    <ServiceCard 
+                    icon={'fab fa-bootstrap'}
+                    title={'Bootstrap'} 
+                    percentage={'98'}
+                    ></ServiceCard>
+                    </div>
+
+                    <div className="col">
+                    <ServiceCard 
+                    icon={'fab fa-node'}
+                    title={'Node'} 
+                    percentage={'50'}
+                    ></ServiceCard>
+                    </div>
+
+                    <div className="col">
+                    <ServiceCard 
+                    icon={'fas fa-code-branch'}
+                    title={'Github'} 
+                    percentage={'70'}
+                    ></ServiceCard>
+                    </div>
+
+                    <div className="col">
+                    <ServiceCard 
+                    icon={'fas fa-fire'}
+                    title={'Firebase'} 
+                    percentage={'75'}
+                    ></ServiceCard>
+                    </div>
                 </div>
             </MySkillsSectionStyled>
         </InnerLayout>
@@ -40,11 +84,6 @@ const MySkills = () => {
 const MySkillsSectionStyled = styled.section`
     .services {
         margin-top: 5rem;
-        display: flex;
-        justify-content: space-evenly;
-        .mid-card {
-            margin: 0 1.2rem;
-        }
     }
 `;
 
