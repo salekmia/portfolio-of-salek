@@ -1,11 +1,23 @@
 import React from 'react';
+import styled from 'styled-components';
+import ImageSection from '../component/ImageSection';
+import Title from '../component/Title';
+import { MainLayout } from '../style/Layouts';
+
 
 const About = () => {
     return (
-        <div>
-            <h2>This is About</h2>
-        </div>
+        <MainLayout>
+            <AboutStyled>
+                <Title title={'About Me'} span={'About Me'} />
+            </AboutStyled>
+            <ImageSection></ImageSection>
+            {/* <MySkills></MySkills> */}
+        </MainLayout>
     );
 };
 
+const AboutStyled = styled.section`
+    
+`;
 export default About;
