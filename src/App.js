@@ -4,8 +4,8 @@ import About from './pages/About';
 import Blogs from './pages/Blogs';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
-import Portfolios from './pages/Portfolios';
-import Resume from './pages/Resume';
+import Project from './pages/Project';
+import Projects from './pages/Projects';
 
 function App() {
   return (
@@ -26,11 +26,11 @@ function App() {
           <Route path="/blogs">
             <Blogs></Blogs>
           </Route>
-          <Route path="/resume">
-            <Resume></Resume>
+          <Route exact path="/projects">
+            <Projects></Projects>
           </Route>
-          <Route path="/portfolios">
-            <Portfolios></Portfolios>
+          <Route path="/projects/:id">
+            <Project></Project>
           </Route>
         </Switch>
       </div>

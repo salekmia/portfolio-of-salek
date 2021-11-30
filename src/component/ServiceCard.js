@@ -4,7 +4,7 @@ const ServiceCard = ({icon, title, percentage}) => {
     return (
         <ServiceCardStyled>
             <div className="container">
-                <span><i class={icon}></i></span>
+                <span><i className={icon}></i></span>
                 <br />
                 <h5>{title}</h5>
                 <h3>{percentage}<span>%</span></h3>

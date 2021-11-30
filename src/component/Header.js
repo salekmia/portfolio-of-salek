@@ -6,14 +6,14 @@ import logo from '../../src/images/logo.png';
 const Header = () => {
     return (
         <NavStyled>
-            <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <Link class="navbar-brand" to="/"><img src={logo} alt="Salek Mia" /></Link>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            <nav className="navbar navbar-expand-lg">
+            <div className="container">
+                <Link className="navbar-brand" to="/"><img src={logo} alt="Salek Mia" /></Link>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"><i className="fas fa-bars"></i></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-items">
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="navbar-nav ms-auto mb-2 mb-lg-0 nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active-class">Home</NavLink>
                     </li>
@@ -21,10 +21,7 @@ const Header = () => {
                         <NavLink to="/about" exact activeClassName="active-class">About</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/resume" exact activeClassName="active-class">Resume</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/portfolios" exact activeClassName="active-class">Portfolios</NavLink>
+                        <NavLink to="/projects" exact activeClassName="active-class">Projects</NavLink>
                     </li>
                     <li>
                         <NavLink to="/blogs" exact activeClassName="active-class">Blogs</NavLink>

@@ -35,6 +35,9 @@ const GlobalStyle = createGlobalStyle`
         background-color: var(--background-dark-color);
         color: var(--font-light-color);
     }
+    p {
+        margin-bottom: 0;
+    }
     a {
         font-family: inherit;
         color: inherit;

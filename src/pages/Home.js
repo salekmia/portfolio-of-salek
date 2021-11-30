@@ -22,16 +22,16 @@ const Home = () => {
                 <p>I love programming. Google search is my hobby. I have fun learning new things. However, I am more interested in web development. So I want to stick to it, I want to work. This is my dream, this is my hope.</p>
                 <div className="icons">
                     <a href="https://www.linkedin.com/in/salekalways/" target="_blank" className="icon i-linkedin" rel="noreferrer">
-                        <i class="fab fa-linkedin"></i>
+                        <i className="fab fa-linkedin"></i>
                     </a>
                     <a href="https://github.com/salekmia" target="_blank" className="icon i-github" rel="noreferrer">
-                        <i class="fab fa-github-square"></i>
+                        <i className="fab fa-github-square"></i>
                     </a>
                     <a href="https://www.facebook.com/salekalways" target="_blank" className="icon i-facebook" rel="noreferrer">
-                        <i class="fab fa-facebook-square"></i>
+                        <i className="fab fa-facebook-square"></i>
                     </a>
                 </div>
-                <a download="Resume of Md Salek Mia" href={docs} class="resume-btn"><PrimaryButton Download title={'Download Resume'} href={docs}></PrimaryButton></a>
+                <a download="Resume of Md Salek Mia" href={docs} className="resume-btn"><PrimaryButton Download title={'Download Resume'} href={docs}></PrimaryButton></a>
                 </div>
             </div>
             </div>
