@@ -7,7 +7,6 @@ const ServiceCard = ({icon, title, percentage}) => {
                 <span><i className={icon}></i></span>
                 <br />
                 <h5>{title}</h5>
-                <h3>{percentage}<span>%</span></h3>
             </div>
         </ServiceCardStyled>
     );
