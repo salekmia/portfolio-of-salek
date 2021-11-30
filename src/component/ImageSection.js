@@ -26,6 +26,7 @@ const ImageSection = () => {
                     </div>
                 </div> */}
                 <table className="about-info">
+                    <tbody>
                     <tr className="info">
                         <td className="info-title">Full Name</td>
                         <td>: Mohammad Salek Mia</td>
@@ -50,6 +51,7 @@ const ImageSection = () => {
                         <td className="info-title">Service</td>
                         <td>: Web Development</td>
                     </tr>
+                    </tbody>
                 </table>
                 <a download="md-salek-mia" href={docs}><PrimaryButton Download title={'Download CV'} href={docs}></PrimaryButton></a>
                 

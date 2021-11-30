@@ -75,6 +75,62 @@ const MySkills = () => {
                     percentage={'75'}
                     ></ServiceCard>
                     </div>
+
+                    <div className="col">
+                    <ServiceCard 
+                    icon={'fab fa-npm'}
+                    title={'NPM'} 
+                    percentage={'75'}
+                    ></ServiceCard>
+                    </div>
+
+                    <div className="col">
+                    <ServiceCard 
+                    icon={'fas fa-code'}
+                    title={'VS Code'} 
+                    percentage={'75'}
+                    ></ServiceCard>
+                    </div>
+
+                    <div className="col">
+                    <ServiceCard 
+                    icon={'fab fa-accusoft'}
+                    title={'Tailwind CSS'} 
+                    percentage={'75'}
+                    ></ServiceCard>
+                    </div>
+
+                    <div className="col">
+                    <ServiceCard 
+                    icon={'fas fa-laptop-code'}
+                    title={'Responsive'} 
+                    percentage={'75'}
+                    ></ServiceCard>
+                    </div>
+
+                    <div className="col">
+                    <ServiceCard 
+                    icon={'fab fa-figma'}
+                    title={'Figma'} 
+                    percentage={'75'}
+                    ></ServiceCard>
+                    </div>
+
+                    <div className="col">
+                    <ServiceCard 
+                    icon={'far fa-file-code'}
+                    title={'Material UI'} 
+                    percentage={'75'}
+                    ></ServiceCard>
+                    </div>
+
+                    <div className="col">
+                    <ServiceCard 
+                    icon={'fab fa-wordpress'}
+                    title={'Wordpress'} 
+                    percentage={'75'}
+                    ></ServiceCard>
+                    </div>
                 </div>
             </MySkillsSectionStyled>
         </InnerLayout>
