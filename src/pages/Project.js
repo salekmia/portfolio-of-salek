@@ -52,9 +52,9 @@ const Project = () => {
                                 <li>{project?.description3}</li>
                             </ul>
                             <ul className="project-link">
-                                <li><a href="/">Live Site</a></li>
-                                <li><a href="/">Client Code</a></li>
-                                <li><a href="/">Server Code</a></li>
+                                <li><a href={project?.live}>Live Site</a></li>
+                                <li><a  href={project?.client}>Client Code</a></li>
+                                {project?.server && <li><a href={project?.server}>Server Code</a></li>}
                             </ul>
                         </div>
                         
@@ -77,14 +77,21 @@ const ProjectPageStyled = styled.div`
             width: 100%;
             .image {
                 height: 250px;
+                overflow: hidden;
+                
                 img {
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
-                    border: 8px solid var(--border-color);
-                    padding: 8px;
+                    transition: all .5s ease-in-out;
+                    border-top: 1px solid var(--border-color);
                     &:hover {
                         cursor: pointer;
+                    }
+                }
+                &:hover{
+                    img {
+                        transform: scale(1.1);
                     }
                 }
             }

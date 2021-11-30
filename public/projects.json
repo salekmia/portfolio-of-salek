@@ -14,7 +14,10 @@
         "img5": "https://i.imgur.com/wnB1a4h.png",
         "img6": "https://i.imgur.com/DyObuU1.png",
         "img7": "https://i.imgur.com/TFUH9d2.png",
-        "img8": "https://i.imgur.com/H7icBMK.png"
+        "img8": "https://i.imgur.com/H7icBMK.png",
+        "client": "https://github.com/salekmia/ladies-shoe-client",
+        "server": "https://github.com/salekmia/ladies-shoe-server",
+        "live": "https://ladies-shoe-assignment-12.web.app/"
     },
     {
         "id": "2",
@@ -28,7 +31,10 @@
         "img3": "https://i.imgur.com/95G77sK.png",
         "img4": "https://i.imgur.com/OzqnG2y.png",
         "img5": "https://i.imgur.com/aWgcvdr.png",
-        "img6": "https://i.imgur.com/g9Bsn2c.png"
+        "img6": "https://i.imgur.com/g9Bsn2c.png",
+        "client": "https://github.com/salekmia/world-travel-client",
+        "server": "https://github.com/salekmia/world-travel-server",
+        "live": "https://world-travel-assignment-11.web.app/"
     },
     {
         "id": "3",
@@ -40,7 +46,11 @@
         "description4": "By visiting the contact us page, users can know all information about the services. There is a departments page and users can browse all departments.",
         "img1": "https://i.imgur.com/BFDm7d2.png",
         "img2": "https://i.imgur.com/TkcBXtW.png",
-        "img3": "https://i.imgur.com/GP0rRhV.png"
+        "img3": "https://i.imgur.com/GP0rRhV.png",
+        "img4": "https://i.imgur.com/W4MtraD.png",
+        "client": "https://github.com/salekmia/mother-and-child-general-hospital",
+        "server":"",
+        "live":"https://assignment-macgh-10.web.app/"
     }
 ]
 
