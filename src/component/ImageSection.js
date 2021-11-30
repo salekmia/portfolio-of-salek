@@ -12,7 +12,8 @@ const ImageSection = () => {
             <div className="right-content col-md-8">
                     <h2>I am <span>Salek Mia</span></h2>
                 <div className="paragraph">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit magnam consequuntur doloribus, aliquid iure similique hic qui repellat eum cumque saepe repudiandae ration.</p>
+                    <p>Hi! I am a frontend (React) web developer. I love programming. I am deeply interested in JavaScript and doing google searches is my hobby. I have fun learning new things.</p> 
+                    <p>However, I am more interested in web development. So I want to stick to it, I want to work.</p>
                 </div>
                 {/* <div className="about-info">
                     <div className="">

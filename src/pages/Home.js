@@ -18,8 +18,8 @@ const Home = () => {
             </div>
             <div className="typography mx-0 mx-md-4">
                 <div>
-                <h1>Hi I'm <span>Salek Mia</span></h1>
-                <p>I love programming. Google search is my hobby. I have fun learning new things. However, I am more interested in web development. So I want to stick to it, I want to work. This is my dream, this is my hope.</p>
+                <h1>Hi! I'm Salek Mia</h1>
+                <h2>I'm a<span> Frontend (React) Web Developer.</span></h2>
                 <div className="icons">
                     <a href="https://www.linkedin.com/in/salekalways/" target="_blank" className="icon i-linkedin" rel="noreferrer">
                         <i className="fab fa-linkedin"></i>
@@ -66,11 +66,18 @@ const HomeStyled = styled.header`
     }
     .typography {
         position: absolute;
-        top: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
         text-align: center;
+        h2 {
+            font-size: 1.6rem;
+            span {
+                font-size: 1.6rem;
+                color: var(--primary-color);
+            }
+        }
         .resume-btn {
             margin: 1rem 0;
             display: inline-block;

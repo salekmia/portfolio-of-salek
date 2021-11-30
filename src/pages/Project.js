@@ -50,6 +50,8 @@ const Project = () => {
                                 <li>{project?.description1}</li>
                                 <li>{project?.description2}</li>
                                 <li>{project?.description3}</li>
+                                <li>{project?.description4}</li>
+                                <li>{project?.description5}</li>
                             </ul>
                             <ul className="project-link">
                                 <li><a href={project?.live}>Live Site</a></li>
