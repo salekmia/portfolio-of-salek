@@ -1,4 +1,5 @@
 import React from 'react';
+import Typical from 'react-typical';
 import styled from 'styled-components';
 import docs from '../../src/images/Resume of Md Salek Mia.pdf';
 import MyParticle from '../component/MyParticle';
@@ -18,8 +19,12 @@ const Home = () => {
             </div>
             <div className="typography mx-0 mx-md-4">
                 <div>
-                <h1>Hi! I'm Salek Mia</h1>
-                <h2>I'm a<span> Frontend (React) Web Developer.</span></h2>
+                <h1>Hi! I'm Salek Mia</h1> 
+                <h2>I'm a<span><Typical
+        steps={['Frontend Web Developer.', 1500, 'React Developer', 1000]}
+        loop={Infinity}
+        wrapper="p"
+      /></span></h2>
                 <div className="icons">
                     <a href="https://www.linkedin.com/in/salekalways/" target="_blank" className="icon i-linkedin" rel="noreferrer">
                         <i className="fab fa-linkedin"></i>
